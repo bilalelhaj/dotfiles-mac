@@ -1,0 +1,79 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "small",
+    "padding": {
+      "top": 2,
+      "left": 2,
+      "right": 4
+    }
+  },
+  "display": {
+    "separator": "  ➜  ",
+    "color": {
+      "separator": "dim_white"
+    }
+  },
+  "modules": [
+    // --- BASIS INFOS ---
+    {
+      "type": "title",
+      "color": {
+        "user": "blue",
+        "at": "dim_white",
+        "host": "blue"
+      }
+    },
+    "separator",
+    {
+      "type": "uptime",
+      "key": "Uptime   ",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "shell",
+      "key": "Shell    ",
+      "keyColor": "green"
+    },
+    "break",
+
+    // --- NETZWERK DETAIL-SEKTION ---
+    {
+      "type": "separator",
+      "string": "────────── Network Details ──────────",
+      "outputColor": "dim_white"
+    },
+    // Öffentliche IP
+    {
+      "type": "publicip",
+      "key": "Public IP",
+      "keyColor": "red",
+      "timeout": 1500
+    },
+    // Detaillierte Lokale IPs + MAC
+    {
+      "type": "localip",
+      "key": "Local IPs",
+      "keyColor": "magenta",
+      "compact": false,
+      "showMac": true,
+      "showMtu": true,
+      "showIpv6": false
+    },
+    // DNS Server
+    {
+      "type": "dns",
+      "key": "DNS      ",
+      "keyColor": "blue",
+      "showType": "ipv4"
+    },
+    // Wifi (umbenannt)
+    {
+      "type": "wifi",
+      "key": "Wifi     ",
+      "keyColor": "cyan",
+      "format": "{ssid} {signal-quality-bar} [{security}]"
+    },
+    "break"
+  ]
+}
