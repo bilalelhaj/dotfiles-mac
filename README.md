@@ -10,3 +10,12 @@ brew leaves > leaves.txt
 xargs brew install < leaves.txt
 ```
 
+
+### stow for management
+```bash
+# After installing dotfiles run in cli
+stow [package]
+```
+```
+```
+```
