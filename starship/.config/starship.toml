@@ -15,7 +15,6 @@ $rust\
 $golang\
 $nodejs\
 $php\
-${custom.laravel}\
 $java\
 $kotlin\
 $haskell\
@@ -161,13 +160,6 @@ format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 symbol = ""
 style = "bg:teal"
 format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
-
-[custom.laravel]
-symbol = ""
-command = "echo ''"
-detect_files = ["artisan"]
-style = "bg:#212736 fg:#ff2d20"
-format = '[ $symbol ]($style)'
 
 [python]
 symbol = ""
