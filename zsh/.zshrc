@@ -4,6 +4,8 @@ CURRENT_DIR=${${(%):-%x}:A:h}
 source $CURRENT_DIR/pomodoro.zsh
 source $CURRENT_DIR/aliases.zsh
 source <(fzf --zsh)
+
+# ZSH Plugins
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 

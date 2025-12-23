@@ -10,4 +10,8 @@ alias ltree="eza --tree --level=2 --icons --git"
 # Docker
 alias dc="docker compose"
 
-
+# Git
+alias lg="lazygit"
+alias ga="git add ."
+alias gc="git commit -m"
+alias gpu="git pull origin"
