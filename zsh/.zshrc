@@ -14,6 +14,7 @@ eval "$(starship init zsh)"
 
 # Exports
 export PATH=/opt/homebrew/bin:$PATH
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
 
@@ -23,4 +24,3 @@ HISTSIZE=10000
 SAVEHIST=50000
 setopt inc_append_history
 
-fastfetch

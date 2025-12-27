@@ -1,2 +1,8 @@
 raycast
+
+.env
+.env.local
+
+claude-config/
+
 .DS_Store
