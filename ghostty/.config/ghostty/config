@@ -4,7 +4,7 @@ theme = rose-pine
 # Font
 font-family = "JetBrainsMono Nerd Font"
 font-style = Regular
-font-size = 14
+font-size = 15
 
 # Window
 window-theme = ghostty
