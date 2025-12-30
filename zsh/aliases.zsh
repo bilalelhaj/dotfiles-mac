@@ -1,6 +1,7 @@
 # General
 alias cat="bat"
 alias ll="ls -la"
+alias ai-copy="~/concat-copy.sh"
 
 # Eza (alternative to ls)
 alias l="eza -l --icons --git -a"
