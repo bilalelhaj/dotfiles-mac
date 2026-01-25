@@ -21,9 +21,9 @@ PYTHON_SCRIPT="${SCRIPT_DIR}/ai-copy.py"
 
 # 2. Verify core logic existence
 if [[ ! -f "$PYTHON_SCRIPT" ]]; then
-  echo "Error: Core logic file 'ai-copy.py' not found." >&2
-  echo "Expected location: $PYTHON_SCRIPT" >&2
-  exit 1
+    echo "Error: Core logic file 'ai-copy.py' not found." >&2
+    echo "Expected location: $PYTHON_SCRIPT" >&2
+    exit 1
 fi
 
 # 3. Hand over execution to Python

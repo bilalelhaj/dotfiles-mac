@@ -196,5 +196,5 @@ return {
       vim.lsp.config(server, cfg)
       vim.lsp.enable(server)
     end
-  end
+  end,
 }

@@ -2,7 +2,6 @@ return { -- Highlight, edit, and navigate code
   'nvim-treesitter/nvim-treesitter',
   lazy = false,
   build = ':TSUpdate',
-  -- [[ Configure Treesitter ]] See `:help nvim-treesitter`
   opts = {
     ensure_installed = {
       'lua',
@@ -31,7 +30,9 @@ return { -- Highlight, edit, and navigate code
       'tsx',
       'css',
       'html',
-      'php'
+      'php',
+      'phpdoc',
+      'blade',
     },
     -- Autoinstall languages that are not installed
     auto_install = true,

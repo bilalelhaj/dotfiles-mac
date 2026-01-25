@@ -15,7 +15,7 @@ xargs brew install < leaves.txt
 ```bash
 # After installing dotfiles run in cli
 stow [package]
-```
-```
-```
+
+# Exception
+stow stow -t / phpstorm
 ```

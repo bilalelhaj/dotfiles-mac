@@ -12,9 +12,6 @@ alias ltree="eza --tree --level=2 --icons --git"
 alias dc="docker compose"
 
 # Vim
-alias vim="nvim"
-alias vi="nvim"
-alias v="nvim"
 alias nv="nvim"
 
 # Git
@@ -22,3 +19,7 @@ alias lg="lazygit"
 alias ga="git add ."
 alias gc="git commit -m"
 alias gpu="git pull origin"
+
+# Language Specific
+## PHP & Laravel
+alias pa="php artisan"

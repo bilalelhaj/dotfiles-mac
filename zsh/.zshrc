@@ -24,3 +24,8 @@ HISTSIZE=10000
 SAVEHIST=50000
 setopt inc_append_history
 
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/bilalel/.lmstudio/bin"
+# End of LM Studio CLI section
+
