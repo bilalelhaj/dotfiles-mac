@@ -10,6 +10,7 @@ alias ltree="eza --tree --level=2 --icons --git"
 
 # Docker
 alias dc="docker compose"
+alias dcc='docker compose exec -it php claude'
 
 # Vim
 alias nv="nvim"
