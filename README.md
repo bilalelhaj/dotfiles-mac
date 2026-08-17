@@ -17,5 +17,5 @@ xargs brew install < leaves.txt
 stow [package]
 
 # Exception
-stow stow -t / phpstorm
+sudo stow -t / phpstorm
 ```
