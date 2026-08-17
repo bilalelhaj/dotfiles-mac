@@ -1,6 +1,6 @@
 declare -A pomo_options
-pomo_options["work"]="55"
-pomo_options["break"]="5"
+pomo_options["work"]="50"
+pomo_options["break"]="10"
 
 pomodoro () {
    if [ -n "$1" -a -n "${pomo_options["$1"]}" ]; then
