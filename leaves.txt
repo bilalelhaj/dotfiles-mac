@@ -1,0 +1,12 @@
+bat
+btop
+gh
+gszhangwei/tools/openspdd
+neovim
+rclone
+starship
+stow
+tree
+unar
+wget
+zoxide
